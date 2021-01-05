@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@500&display=swap');
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    background-color: rgb(29,32,37);
+}
+nav ul{
+    list-style: none;
+    margin:0;
+    padding-bottom:.5%;
+    color:rgb(109,112,116);
+    border-bottom: 2px solid rgb(109,112,116);
+}
+nav li{
+  display: inline;  
+  vertical-align: middle;
+}
+nav ul li:nth-child(1){
+    font-family:'Monoton';
+    font-size:50px;
+    padding-left:1%;
+}
+nav li a{
+    text-decoration: none;
+    color:rgb(109,112,116);
+    font-size:20px;
+    font-family: 'Ubuntu';
+}
+nav li:nth-child(2){
+    padding-left:3.5%;
+}
+nav li:nth-child(3){
+    padding-left:30%;
+}
+nav li:nth-child(4){
+    padding-left:9%;
+}
+nav li:nth-child(5){
+    padding-left:9%;
+}
+nav li:nth-child(6){
+    padding-left:9%;
+}
+nav li a:hover{
+    color:#fff;
+}
+section{
+    font-family:'Ubuntu';
+    position: relative;
+    margin:0;
+    padding:0;
+}
+section h1{
+    color:rgb(109,112,116);
+    font-size: 80px;
+    position: absolute;
+    top:200px;
+    left:15%;
+}
+section span{
+    width:70px;
+    height: 3px;
+    margin-top:1.5%;
+    background-color:rgb(123,93,72);
+    display: inline-block;
+    position: absolute;
+    top:450px;
+    left:15%;
+}
+section a{
+    color:rgb(123,93,72);
+    text-decoration:none;
+    font-size:20px;
+    position:absolute;
+    top:466px;
+    left:20%;
+}
+section a:hover{
+    color:#fff;
+}
+section div{
+    display: inline-block;
+    padding-left:45%;
+    padding-top:2%;
+}
+section div img:nth-of-type(2){
+    padding-left:20px;
+
+}
+section div img:nth-of-type(3){
+    padding-left:20px;
+}
+footer{
+    margin:0;
+}
+footer ul{
+    width:25px;
+    list-style: none;
+    padding-top:30px;
+    padding-left:5%;
+    margin:0;
+}
+
+/* KEIN PLAN WARUM DIE SOCIAL MEDIA ICONS NICHT AUF EINER LINIE SIND. WEIL ES SVG DATEN SIND? EGAL WO ICH DISPLAY (Inline, Inline-Block) ANGEWENDET HABE ES HAT NICHT GEKLAPPT :( */
+footer p:nth-of-type(1){
+    position: absolute;
+    font-size:30px;
+    color:rgb(109,112,116);
+    left:83%;
+    bottom:2%;
+    border:2px solid rgb(123,93,72);
+    padding:10px;
+    border-radius:50%;
+}
+footer p:nth-of-type(2){
+    position:absolute;
+    font-size:30px;
+    color:rgb(109,112,116);
+    left:93%;
+    bottom:2%;
+    border:2px solid rgb(123,93,72);
+    border-radius:50%;
+    padding:10px;
+}
+/* HIER VERSTEHE ICH NICHT WARUM DIE KREISE OVAL SIND UND NICHT RUND? */
